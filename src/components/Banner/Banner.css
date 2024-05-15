@@ -1,0 +1,55 @@
+.banner {
+  /* height: 100vh; */
+  background: #fcdffd;
+  display: flex;
+}
+.banner-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-left: 110px;
+  line-height: 1.1;
+}
+.banner-left h2 {
+  color: #090909;
+  font-size: 18px;
+  font-weight: 600;
+}
+.banner-left p {
+  color: #171717;
+  font-size: 60px;
+  font-weight: 450;
+}
+.banner-hand-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.banner-hand-icon img {
+  width: 80px;
+}
+.banner-latest-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 205px;
+  height: 50px;
+  border-radius: 75px;
+  margin-top: 30px;
+  background: #ff4141;
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.banner-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-right img {
+  height: 530px;
+}
