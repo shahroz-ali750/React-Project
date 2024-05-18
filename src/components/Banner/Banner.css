@@ -1,7 +1,6 @@
 .banner {
-  /* height: 100vh; */
-  background: #fcdffd;
   display: flex;
+  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
 }
 .banner-left {
   flex: 1;
